@@ -14,6 +14,9 @@ if [ "$os_v" = "Ubuntu 16.04" ]; then
 	debconf-set-selections <<< 'mysql-server mysql-server/root_password_again password pass1234'
 	apt-get -y install mysql-server
 
+	cp ./config/mysql/mysqld.cnf /etc/mysql/mysql.conf.d/mysqld.cnf
+	/etc/init.d/mysql restart
+
 	mysql -V
 
 else
