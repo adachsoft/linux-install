@@ -9,6 +9,10 @@ apt-get update
 apt-get -y install php$PHP_V
 apt-get -y install php$PHP_V-mysql
 apt-get -y install php$PHP_V-pgsql
-
+apt-get -y install php$PHP_V-xml
+apt-get -y install php$PHP_V-curl
+apt-get -y install php$PHP_V-zip
+apt-get -y install php$PHP_V-mbstring
+apt-get -y install php$PHP_V-gd
 
 
