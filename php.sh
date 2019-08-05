@@ -14,5 +14,5 @@ apt-get -y install php$PHP_V-curl
 apt-get -y install php$PHP_V-zip
 apt-get -y install php$PHP_V-mbstring
 apt-get -y install php$PHP_V-gd
-
+apt-get -y install php-xdebug
 
